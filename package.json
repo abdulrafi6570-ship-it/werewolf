@@ -1,0 +1,17 @@
+{
+  "name": "werewolf-web",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "sim": "WW_SPEED=200 node test/sim.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "firebase-admin": "^12.6.0",
+    "socket.io": "^4.7.5"
+  },
+  "engines": { "node": ">=18" }
+}
